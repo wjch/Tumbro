@@ -1,0 +1,46 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepPurple</item>
+        <item name="colorPrimaryDark">@color/deepPurple900</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MDAppTheme" parent="AppTheme"></style>
+
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/theme_primary</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <declare-styleable name="PullHeaderLayout">
+        <!-- hader size -->
+        <attr name="phl_header_height" format="dimension"/>
+        <attr name="phl_header_expand_height" format="dimension"/>
+        <attr name="phl_header_shrink_height" format="dimension"/>
+        <!-- header view id -->
+        <attr name="phl_header" format="reference"/>
+        <!-- content view id -->
+        <attr name="phl_content" format="reference"/>
+        <!-- Float action button icon -->
+        <attr name="phl_action" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_contact_picture"
+            android:textSize="@dimen/menu"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_group"
+            android:textSize="@dimen/menu"
+            android:title="Messages"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_map"
+            android:textSize="@dimen/menu"
+            android:title="Friends"/>
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@mipmap/ic_settings"
+            android:textSize="@dimen/menu"
+            android:title="Discussion"/>
+    </group>
+
+    <item android:title="关于我">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_person"
+                android:textSize="@dimen/menu"
+                android:title="王界超"/>
+            <item
+                android:icon="@mipmap/ic_person"
+                android:textSize="@dimen/menu"
+                android:title="mywjch@gmail.com"/>
+        </menu>
+    </item>
+
+</menu>

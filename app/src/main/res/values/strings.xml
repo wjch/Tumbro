@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tumbro</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="crime_title_hint">请输入</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_title_details">Details</string>
+    <string name="crime_solve_label">Solved?</string>
+    <string name="crime_title">Crimes</string>
+    <string name="new_crime">添加</string>
+    <string name="delete_crime">删除</string>
+    <string name="take">拍照</string>
+    <string name="title1">萝莉</string>
+    <string name="title2">宠物</string>
+    <string name="title3">摄影</string>
+    <string name="title4">动漫</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fragment</string>
+
+        <string name="xiaomi_attention">
+        <![CDATA[小米系统用户请进入系统应用:安全中心->授权管理->自启动应用管理 后允许『贝壳单词』自启动，否则无法自启动]]></string>
+    <string name="toast_close">当前为关闭。\n开启后会在你使用其他 APP
+        的时，定时弹出可爱的小『吐司』，不会妨碍你的触摸和点击事件，打扰性非常低，但却能很高效地无压力复习单词。
+    </string>
+    <string name="toast_open">当前为开启。\n开启后会在你使用其他 APP
+        的时，定时弹出可爱的小『吐司』，不会妨碍你的触摸和点击事件，打扰性非常低，但却能很高效地无压力复习单词。
+    </string>
+    <string name="title_activity_tum_test">TumTestActivity</string>
+
+    <string name="title_activity_crime">CrimeActivity</string>
+    <string name="crime1">myCrime</string>
+    <string name="title_activity_crime_list">CrimeListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_single_fragment">SingleFragmentActivity</string>
+    <string name="title_activity_crime_pager">CrimePagerActivity</string>
+    <string name="title_activity_crime_camera">CrimeCameraActivity</string>
+    <string name="title_activity_main_tab">看美图</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_zhi_hu_main">ZhiHuMainActivity</string>
+    <string name="save_image_fail">保存图片失败</string>
+    <string name="save_image_success">保存图片成功</string>
+</resources>
